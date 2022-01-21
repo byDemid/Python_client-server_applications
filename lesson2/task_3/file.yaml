@@ -1,0 +1,11 @@
+one_key:
+- one
+- two
+- three
+- four
+two_key: 4
+three_key:
+  one: 1€
+  two: 2€
+  three: 3€
+  four: 4€
