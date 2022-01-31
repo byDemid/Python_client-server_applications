@@ -1,5 +1,5 @@
 """Константы"""
-
+import logging
 # Порт по умолчанию для сетевого ваимодействия
 DEFAULT_PORT = 7777
 # IP адрес по умолчанию для подключения клиента
@@ -24,3 +24,7 @@ ERROR = 'error'
 
 PORT= '-p'
 IP_ADDRESS = '-a'
+
+LOGGING_LEVEL = logging.DEBUG
+CLIENT_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
+SERVER_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
