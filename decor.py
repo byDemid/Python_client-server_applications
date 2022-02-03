@@ -13,6 +13,7 @@ else:
     LOGGER = logging.getLogger('client')
 
 
+
 def log(func):
     """Функция-Декоратор"""
 

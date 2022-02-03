@@ -16,6 +16,7 @@ from decor import log
 CLIENT_LOGGER = logging.getLogger('client')
 
 
+
 @log
 def create_presence(account_name='Guest'):
     '''

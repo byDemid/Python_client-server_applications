@@ -15,7 +15,6 @@ from decor import log
 SERVER_LOGGER = logging.getLogger('server')
 
 
-
 @log
 def process_client_message(message):
     '''
