@@ -18,3 +18,4 @@
 2022-01-31 21:16:45,530 WARNING server_log_config.py Предупреждение!
 2022-01-31 21:16:45,530 DEBUG server_log_config.py Отладочная информация
 2022-01-31 21:16:45,530 INFO server_log_config.py Информационное сообщение
+
