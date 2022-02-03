@@ -7,3 +7,46 @@
 2022-01-31 21:16:08,580 WARNING client_log_config.py Предупреждение!
 2022-01-31 21:16:08,580 DEBUG client_log_config.py Отладочная информация
 2022-01-31 21:16:08,580 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:22:41,642 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:23:37,167 DEBUG client.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:23:37,167 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-02-03 15:23:37,178 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-03 15:23:37,179 DEBUG client.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:23:37,180 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1643891017.1789103, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:23:37,180 DEBUG client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:23:37,180 INFO client.py Принят ответ от сервера 200 : OK
+2022-02-03 15:28:25,089 CRITICAL client_log_config.py Критическая ошибка
+2022-02-03 15:28:25,089 ERROR client_log_config.py Ошибка
+2022-02-03 15:28:25,089 WARNING client_log_config.py Предупреждение!
+2022-02-03 15:28:25,089 DEBUG client_log_config.py Отладочная информация
+2022-02-03 15:28:25,089 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:28:45,084 CRITICAL client_log_config.py Критическая ошибка
+2022-02-03 15:28:45,084 ERROR client_log_config.py Ошибка
+2022-02-03 15:28:45,084 WARNING client_log_config.py Предупреждение!
+2022-02-03 15:28:45,084 DEBUG client_log_config.py Отладочная информация
+2022-02-03 15:28:45,084 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:30:13,266 CRITICAL client_log_config.py Критическая ошибка
+2022-02-03 15:30:13,266 ERROR client_log_config.py Ошибка
+2022-02-03 15:30:13,266 WARNING client_log_config.py Предупреждение!
+2022-02-03 15:30:13,266 DEBUG client_log_config.py Отладочная информация
+2022-02-03 15:30:13,266 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:31:35,009 CRITICAL client_log_config.py Критическая ошибка
+2022-02-03 15:31:35,015 ERROR client_log_config.py Ошибка
+2022-02-03 15:31:35,016 WARNING client_log_config.py Предупреждение!
+2022-02-03 15:31:35,016 DEBUG client_log_config.py Отладочная информация
+2022-02-03 15:31:35,016 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:32:17,221 CRITICAL client_log_config.py Критическая ошибка
+2022-02-03 15:32:17,221 ERROR client_log_config.py Ошибка
+2022-02-03 15:32:17,221 WARNING client_log_config.py Предупреждение!
+2022-02-03 15:32:17,221 DEBUG client_log_config.py Отладочная информация
+2022-02-03 15:32:17,221 INFO client_log_config.py Информационное сообщение
+2022-02-03 15:32:49,620 DEBUG client.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:32:49,636 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-02-03 15:33:28,417 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:33:30,715 DEBUG client.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:33:30,715 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-02-03 15:33:30,718 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-02-03 15:33:30,719 DEBUG client.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:33:30,720 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1643891610.7183607, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:33:30,723 DEBUG client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-03 15:33:30,723 INFO client.py Принят ответ от сервера 200 : OK
