@@ -26,5 +26,8 @@ PORT= '-p'
 IP_ADDRESS = '-a'
 
 LOGGING_LEVEL = logging.DEBUG
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
+SENDER = 'sender'
 CLIENT_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
 SERVER_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
