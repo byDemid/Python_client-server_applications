@@ -16,6 +16,11 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+DESTINATION = 'to'
+EXIT = 'exit'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
+SENDER = 'from'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
@@ -25,9 +30,14 @@ ERROR = 'error'
 PORT= '-p'
 IP_ADDRESS = '-a'
 
+# Словари - ответы:
+# 200
+RESPONSE_200 = {RESPONSE: 200}
+# 400
+RESPONSE_400 = {
+    RESPONSE: 400,
+    ERROR: None
+}
 LOGGING_LEVEL = logging.DEBUG
-MESSAGE = 'message'
-MESSAGE_TEXT = 'mess_text'
-SENDER = 'sender'
 CLIENT_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
 SERVER_FORMATTER = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
