@@ -2,7 +2,11 @@
 
 import json
 from common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from decor import log
+from errors import IncorrectDataRecivedError, NonDictInputError
 
+
+@log
 def get_message(client):
     '''
     Утилита приёма и декодирования сообщения
@@ -17,10 +21,13 @@ def get_message(client):
         response = json.loads(json_response)
         if isinstance(response, dict):
             return response
-        raise ValueError
-    raise ValueError
+        else:
+            raise IncorrectDataRecivedError
+    else:
+        raise IncorrectDataRecivedError
 
 
+@log
 def send_message(sock, message):
     '''
     Утилита кодирования и отправки сообщения
@@ -30,6 +37,8 @@ def send_message(sock, message):
     :return:
     '''
 
+    if not isinstance(message, dict):
+        raise NonDictInputError
     js_message = json.dumps(message)
     encoded_message = js_message.encode(ENCODING)
     sock.send(encoded_message)
