@@ -160,6 +160,8 @@ def main():
 
     # Загружаем параметы коммандной строки
     server_ip, server_port, client_name = create_arg_parser()
+    # print(client_name)
+    client_name = ("")
 
     # Если имя пользователя не было задано, необходимо запросить пользователя.
     if not client_name:
