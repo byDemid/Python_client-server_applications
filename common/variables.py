@@ -13,6 +13,9 @@ ENCODING = 'utf-8'
 # База данных для хранения данных сервера:
 SERVER_DATABASE = 'sqlite:///server_base.db3'
 
+# База данных для хранения данных сервера:
+SERVER_CONFIG = 'server.ini'
+
 # Прококол JIM основные ключи:
 ACTION = 'action'
 TIME = 'time'
@@ -23,6 +26,11 @@ EXIT = 'exit'
 MESSAGE = 'message'
 MESSAGE_TEXT = 'mess_text'
 SENDER = 'from'
+GET_CONTACTS = 'get_contacts'
+LIST_INFO = 'data_list'
+REMOVE_CONTACT = 'remove'
+ADD_CONTACT = 'add'
+USERS_REQUEST = 'get_users'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
@@ -35,6 +43,10 @@ IP_ADDRESS = '-a'
 # Словари - ответы:
 # 200
 RESPONSE_200 = {RESPONSE: 200}
+# 202
+RESPONSE_202 = {RESPONSE: 202,
+                LIST_INFO:None
+                }
 # 400
 RESPONSE_400 = {
     RESPONSE: 400,
