@@ -5,18 +5,13 @@ import os
 import select
 import socket
 import sys
-import json
-import logging
 import threading
-import time
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QApplication, QMessageBox
 from common.variables import *
 from common.utils import get_message, send_message
 from descrptrs import Port, Host
-from errors import IncorrectDataRecivedError
-from logs import server_log_config
-from decor import log
+from common.decor import log
 from metaclasses import ServerMaker
 from server_database import ServerStorage
 from server_gui import gui_create_model, MainWindow, HistoryWindow, create_stat_model, ConfigWindow
@@ -67,6 +62,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
                            f'Если адрес не указан, принимаются соединения с любых адресов.')
         # Готовим сокет
         transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        transport.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         transport.bind((self.addr, self.port))
         transport.settimeout(0.5)
 
@@ -76,6 +72,7 @@ class Server(threading.Thread, metaclass=ServerMaker):
 
     def run(self):
         # Инициализация Сокета
+        global new_connection
         self.init_socket()
 
         # Основной цикл программы сервера
@@ -113,6 +110,8 @@ class Server(threading.Thread, metaclass=ServerMaker):
                                 del self.names[name]
                                 break
                         self.clients.remove(client_with_message)
+                        with conflag_lock:
+                            new_connection = True
 
             # Если есть сообщения, обрабатываем каждое.
             for message in self.messages:
@@ -123,6 +122,8 @@ class Server(threading.Thread, metaclass=ServerMaker):
                     self.clients.remove(self.names[message[DESTINATION]])
                     self.database.user_logout(message[DESTINATION])
                     del self.names[message[DESTINATION]]
+                    with conflag_lock:
+                        new_connection = True
             self.messages.clear()
 
     def process_message(self, message, listen_socks):
@@ -169,9 +170,14 @@ class Server(threading.Thread, metaclass=ServerMaker):
         elif ACTION in message and message[ACTION] == MESSAGE and \
                 DESTINATION in message and TIME in message \
                 and SENDER in message and MESSAGE_TEXT in message and self.names[message[SENDER]] == client:
-            self.messages.append(message)
-            self.database.process_message(
-                message[SENDER], message[DESTINATION])
+            if message[DESTINATION] in self.names:
+                self.messages.append(message)
+                self.database.process_message(message[SENDER], message[DESTINATION])
+                send_message(client, RESPONSE_200)
+            else:
+                response = RESPONSE_400
+                response[ERROR] = 'Пользователь не зарегистрирован на сервере.'
+                send_message(client, response)
             return
 
         # Если клиент выходит
@@ -230,12 +236,25 @@ class Server(threading.Thread, metaclass=ServerMaker):
 #     print('exit - завершение работы сервера.')
 #     print('help - вывод справки по поддерживаемым командам')
 
-
-def main():
-    # Загрузка файла конфигурации сервера
+# Загрузка файла конфигурации
+def config_load():
     config = configparser.ConfigParser()
     dir_path = os.path.dirname(os.path.realpath(__file__))
     config.read(f"{dir_path}/{'server.ini'}")
+    # Если конфиг файл загружен правильно, запускаемся, иначе конфиг по умолчанию.
+    if 'SETTINGS' in config:
+        return config
+    else:
+        config.add_section('SETTINGS')
+        config.set('SETTINGS', 'Default_port', str(DEFAULT_PORT))
+        config.set('SETTINGS', 'Listen_Address', '')
+        config.set('SETTINGS', 'Database_path', '')
+        config.set('SETTINGS', 'Database_file', 'server_database.db3')
+        return config
+
+def main():
+    # Загрузка файла конфигурации сервера
+    config = config_load()
 
     # Загрузка параметров командной строки, если нет параметров, то задаём значения по умоланию.
     listen_address, listen_port = create_arg_parser(config['SETTINGS']['Default_port'],
@@ -286,7 +305,7 @@ def main():
         stat_window.history_table.setModel(create_stat_model(database))
         stat_window.history_table.resizeColumnsToContents()
         stat_window.history_table.resizeRowsToContents()
-        # stat_window.show()
+        stat_window.show()
 
     # Функция создающяя окно с настройками сервера.
     def server_config():
@@ -313,8 +332,8 @@ def main():
             config['SETTINGS']['Listen_Address'] = config_window.ip.text()
             if 1023 < port < 65536:
                 config['SETTINGS']['Default_port'] = str(port)
-                print(port)
-                with open('server.ini', 'w') as conf:
+                dir_path = os.path.dirname(os.path.realpath(__file__))
+                with open(f"{dir_path}/{'server.ini'}", 'w') as conf:
                     config.write(conf)
                     message.information(
                         config_window, 'OK', 'Настройки успешно сохранены!')

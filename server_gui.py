@@ -89,7 +89,7 @@ class MainWindow(QMainWindow):
         # Надпись о том, что ниже список подключённых клиентов
         self.label = QLabel('Список подключённых клиентов:', self)
         self.label.setFixedSize(240, 15)
-        self.label.move(10, 30)
+        self.label.move(10, 25)
 
         # Окно со списком подключённых клиентов.( по умолчанию без шапки)
         self.active_clients_table = QTableView(self)
@@ -159,6 +159,7 @@ class ConfigWindow(QDialog):
             dialog = QFileDialog(self)
             path = dialog.getExistingDirectory()
             path = path.replace('/', '\\')
+            self.db_path.clear()
             self.db_path.insert(path)
 
         self.db_path_select.clicked.connect(open_file_dialog)
@@ -212,19 +213,18 @@ class ConfigWindow(QDialog):
 
 if __name__ == '__main__':
 
-    app = QApplication(sys.argv)
-    ex = MainWindow()
-    ex.statusBar().showMessage('Test Statusbar Message')
-    test_list = QStandardItemModel(ex)
-    test_list.setHorizontalHeaderLabels(['Имя Клиента', 'IP Адрес', 'Порт', 'Время подключения'])
-    test_list.appendRow([QStandardItem('1'), QStandardItem('2'), QStandardItem('3')])
-    test_list.appendRow([QStandardItem('4'), QStandardItem('5'), QStandardItem('6')])
-    ex.active_clients_table.setModel(test_list)
-    ex.active_clients_table.resizeColumnsToContents()
-    app.exec_()
-    print('END')
     # app = QApplication(sys.argv)
-    # message = QMessageBox
-    # dial = ConfigWindow()
-    #
+    # ex = MainWindow()
+    # ex.statusBar().showMessage('Test Statusbar Message')
+    # test_list = QStandardItemModel(ex)
+    # test_list.setHorizontalHeaderLabels(['Имя Клиента', 'IP Адрес', 'Порт', 'Время подключения'])
+    # test_list.appendRow([QStandardItem('1'), QStandardItem('2'), QStandardItem('3')])
+    # test_list.appendRow([QStandardItem('4'), QStandardItem('5'), QStandardItem('6')])
+    # ex.active_clients_table.setModel(test_list)
+    # ex.active_clients_table.resizeColumnsToContents()
     # app.exec_()
+    # print('END')
+    app = QApplication(sys.argv)
+    message = QMessageBox
+    dial = ConfigWindow()
+    app.exec_()

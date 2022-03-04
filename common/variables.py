@@ -10,32 +10,32 @@ MAX_CONNECTIONS = 5
 MAX_PACKAGE_LENGTH = 1024
 # Кодировка проекта
 ENCODING = 'utf-8'
-# База данных для хранения данных сервера:
-SERVER_DATABASE = 'sqlite:///server_base.db3'
+# # База данных для хранения данных сервера:
+# SERVER_DATABASE = 'sqlite:///server_base.db3'
 
 # База данных для хранения данных сервера:
 SERVER_CONFIG = 'server.ini'
 
-# Прококол JIM основные ключи:
+# Протокол JIM основные ключи:
 ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
 DESTINATION = 'to'
-EXIT = 'exit'
-MESSAGE = 'message'
-MESSAGE_TEXT = 'mess_text'
 SENDER = 'from'
-GET_CONTACTS = 'get_contacts'
-LIST_INFO = 'data_list'
-REMOVE_CONTACT = 'remove'
-ADD_CONTACT = 'add'
-USERS_REQUEST = 'get_users'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
+EXIT = 'exit'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
+GET_CONTACTS = 'get_contacts'
+LIST_INFO = 'data_list'
+REMOVE_CONTACT = 'remove'
+ADD_CONTACT = 'add'
+USERS_REQUEST = 'get_users'
 
 PORT= '-p'
 IP_ADDRESS = '-a'

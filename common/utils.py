@@ -1,9 +1,10 @@
 """Утилиты"""
 
 import json
-from common.variables import MAX_PACKAGE_LENGTH, ENCODING
-from decor import log
-from errors import IncorrectDataRecivedError, NonDictInputError
+import sys
+from common.variables import *
+from common.decor import log
+sys.path.append('../')
 
 
 @log
@@ -22,9 +23,7 @@ def get_message(client):
         if isinstance(response, dict):
             return response
         else:
-            raise IncorrectDataRecivedError
-    else:
-        raise IncorrectDataRecivedError
+            raise TypeError
 
 
 @log
@@ -32,13 +31,7 @@ def send_message(sock, message):
     '''
     Утилита кодирования и отправки сообщения
     принимает словарь и отправляет его
-    :param sock:
-    :param message:
-    :return:
     '''
-
-    if not isinstance(message, dict):
-        raise NonDictInputError
     js_message = json.dumps(message)
     encoded_message = js_message.encode(ENCODING)
     sock.send(encoded_message)
