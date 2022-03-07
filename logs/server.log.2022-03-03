@@ -1,0 +1,136 @@
+2022-03-03 12:37:05,916 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 19:53:56,650 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 20:01:50,562 DEBUG server.py Была вызвана функция create_arg_parser c параметрами ('7777', ''), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-03-03 20:01:50,593 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 20:45:31,293 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 22:15:29,350 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 22:15:56,957 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57481)
+2022-03-03 22:15:57,476 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646334956.9578888, 'user': {'account_name': 'Olga'}}
+2022-03-03 22:15:58,023 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646334957.5066042, 'account_name': 'Olga'}
+2022-03-03 22:15:58,569 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646334958.0383508, 'user': 'Olga'}
+2022-03-03 22:16:58,022 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60906)
+2022-03-03 22:16:58,528 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335018.0223296, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:16:59,053 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335018.5494442, 'account_name': 'Roma'}
+2022-03-03 22:16:59,562 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335019.069678, 'user': 'Roma'}
+2022-03-03 22:17:36,245 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335055.6906176, 'user': 'Roma', 'account_name': 'Olga'}
+2022-03-03 22:17:44,938 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335064.5241144, 'account_name': 'Olga'}
+2022-03-03 22:17:45,454 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335064.9533381, 'account_name': 'Olga'}
+2022-03-03 22:17:45,960 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335065.469723, 'account_name': 'Olga'}
+2022-03-03 22:17:48,009 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335067.6223667, 'user': 'Olga', 'account_name': 'Roma'}
+2022-03-03 22:18:01,313 INFO server.py Клиент ('127.0.0.1', 57481) отключился от сервера.
+2022-03-03 22:18:10,430 INFO server.py Клиент ('127.0.0.1', 60906) отключился от сервера.
+2022-03-03 22:20:15,705 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60930)
+2022-03-03 22:20:16,205 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335215.7058704, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:20:16,721 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335216.2059066, 'account_name': 'Roma'}
+2022-03-03 22:20:17,221 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335216.7368767, 'user': 'Roma'}
+2022-03-03 22:20:43,182 INFO server.py Клиент ('127.0.0.1', 60930) отключился от сервера.
+2022-03-03 22:26:30,254 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60972)
+2022-03-03 22:26:30,254 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335590.2547643, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:26:30,770 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335590.270389, 'account_name': 'Roma'}
+2022-03-03 22:26:31,285 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335590.7859182, 'user': 'Roma'}
+2022-03-03 22:27:30,053 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60978)
+2022-03-03 22:27:30,556 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335650.053847, 'user': {'account_name': 'Olga'}}
+2022-03-03 22:27:31,089 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335650.5716455, 'account_name': 'Olga'}
+2022-03-03 22:27:31,594 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335651.1040494, 'user': 'Olga'}
+2022-03-03 22:29:06,841 INFO server.py Клиент ('127.0.0.1', 60978) отключился от сервера.
+2022-03-03 22:29:20,618 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646335760.118114, 'account_name': 'Roma'}
+2022-03-03 22:29:20,618 INFO server.py Клиент Roma корректно отключился от сервера.
+2022-03-03 22:30:48,980 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-03 22:31:12,944 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61018)
+2022-03-03 22:31:12,949 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335872.9449055, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:31:13,477 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335872.9696736, 'account_name': 'Roma'}
+2022-03-03 22:31:13,996 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335873.4920468, 'user': 'Roma'}
+2022-03-03 22:31:32,538 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61020)
+2022-03-03 22:31:33,044 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335892.5399797, 'user': {'account_name': 'Olga'}}
+2022-03-03 22:31:33,563 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335893.0587852, 'account_name': 'Olga'}
+2022-03-03 22:31:34,068 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335893.5764298, 'user': 'Olga'}
+2022-03-03 22:31:40,683 INFO server.py Клиент ('127.0.0.1', 61020) отключился от сервера.
+2022-03-03 22:31:49,367 INFO server.py Клиент ('127.0.0.1', 61018) отключился от сервера.
+2022-03-03 22:32:08,153 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61025)
+2022-03-03 22:32:08,157 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335928.15304, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:32:08,683 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335928.168, 'account_name': 'Roma'}
+2022-03-03 22:32:09,200 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335928.6983619, 'user': 'Roma'}
+2022-03-03 22:32:13,782 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646335933.2419693, 'user': 'Roma', 'account_name': 'Olga'}
+2022-03-03 22:32:27,334 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61031)
+2022-03-03 22:32:27,844 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335947.3348422, 'user': {'account_name': 'Olga'}}
+2022-03-03 22:32:28,360 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335947.856084, 'account_name': 'Olga'}
+2022-03-03 22:32:28,877 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335948.3751698, 'user': 'Olga'}
+2022-03-03 22:32:32,950 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646335952.7815416, 'user': 'Olga', 'account_name': 'Roma'}
+2022-03-03 22:32:40,119 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335959.681446, 'account_name': 'Olga'}
+2022-03-03 22:32:40,634 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335960.3188708, 'account_name': 'Olga'}
+2022-03-03 22:32:42,668 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335962.1735787, 'user': 'Olga', 'account_name': 'Roma'}
+2022-03-03 22:32:52,378 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335972.1094763, 'user': 'Roma', 'account_name': 'Olga'}
+2022-03-03 22:32:57,482 INFO server.py Клиент ('127.0.0.1', 61025) отключился от сервера.
+2022-03-03 22:38:34,852 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57349)
+2022-03-03 22:38:34,855 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336314.8520827, 'user': {'account_name': 'cleint_1'}}
+2022-03-03 22:38:35,405 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336314.8824863, 'account_name': 'cleint_1'}
+2022-03-03 22:38:35,924 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336315.444309, 'user': 'cleint_1'}
+2022-03-03 22:38:52,250 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336332.0914114, 'user': 'cleint_1', 'account_name': 'Olga'}
+2022-03-03 22:39:26,954 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57356)
+2022-03-03 22:39:27,462 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336366.954453, 'user': {'account_name': 'client_2'}}
+2022-03-03 22:39:28,005 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336367.5011904, 'account_name': 'client_2'}
+2022-03-03 22:39:28,524 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336368.0215485, 'user': 'client_2'}
+2022-03-03 22:39:36,154 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336375.66516, 'user': 'client_2', 'account_name': 'cleint_1'}
+2022-03-03 22:39:56,079 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336396.0188963, 'account_name': 'Olga'}
+2022-03-03 22:39:56,103 INFO server.py Клиент Olga корректно отключился от сервера.
+2022-03-03 22:40:40,455 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'client_2', 'to': 'cleint_1', 'time': 1646336440.3567119, 'mess_text': 'Привет'}
+2022-03-03 22:40:40,505 INFO server.py Отправлено сообщение пользователю cleint_1 от пользователя client_2.
+2022-03-03 22:40:52,734 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336452.2647262, 'user': 'cleint_1', 'account_name': 'client_2'}
+2022-03-03 22:41:27,975 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'cleint_1', 'to': 'Olga', 'time': 1646336487.0769691, 'mess_text': 'привет'}
+2022-03-03 22:41:44,777 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646336504.754219, 'user': 'cleint_1', 'account_name': 'Olga'}
+2022-03-03 22:42:37,488 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57388)
+2022-03-03 22:42:37,994 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336557.4884632, 'user': {'account_name': 'cleint_3'}}
+2022-03-03 22:42:38,541 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336558.0288317, 'account_name': 'cleint_3'}
+2022-03-03 22:42:39,049 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336558.5583358, 'user': 'cleint_3'}
+2022-03-03 22:42:46,714 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336566.2013705, 'account_name': 'cleint_3'}
+2022-03-03 22:42:49,786 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336569.182845, 'user': 'cleint_3', 'account_name': 'cleint_1'}
+2022-03-03 22:43:00,509 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'cleint_3', 'to': 'cleint_1', 'time': 1646336580.4875255, 'mess_text': 'привет\n'}
+2022-03-03 22:43:00,532 INFO server.py Отправлено сообщение пользователю cleint_1 от пользователя cleint_3.
+2022-03-03 22:43:09,676 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336589.4953923, 'user': 'cleint_1', 'account_name': 'cleint_3'}
+2022-03-03 22:43:21,436 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336601.349382, 'account_name': 'cleint_1'}
+2022-03-03 22:43:21,460 INFO server.py Клиент cleint_1 корректно отключился от сервера.
+2022-03-03 22:43:22,482 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336602.0561082, 'account_name': 'cleint_3'}
+2022-03-03 22:43:22,493 INFO server.py Клиент cleint_3 корректно отключился от сервера.
+2022-03-03 22:44:42,695 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57399)
+2022-03-03 22:44:42,701 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336682.695587, 'user': {'account_name': 'Olga'}}
+2022-03-03 22:44:43,230 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336682.722515, 'account_name': 'Olga'}
+2022-03-03 22:44:43,744 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336683.2617407, 'user': 'Olga'}
+2022-03-03 22:44:51,891 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336691.0897272, 'account_name': 'Olga'}
+2022-03-03 22:45:01,063 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336700.6451523, 'user': 'Olga', 'account_name': 'cleint_1'}
+2022-03-03 22:45:22,081 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336721.352096, 'account_name': 'Olga'}
+2022-03-03 22:45:22,099 INFO server.py Клиент Olga корректно отключился от сервера.
+2022-03-03 22:45:46,896 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57418)
+2022-03-03 22:45:47,418 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336746.8968039, 'user': {'account_name': 'Roma'}}
+2022-03-03 22:45:47,962 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336747.4565725, 'account_name': 'Roma'}
+2022-03-03 22:45:48,488 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336747.9819498, 'user': 'Roma'}
+2022-03-03 22:45:57,162 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Roma', 'to': 'Olga', 'time': 1646336756.7859874, 'mess_text': 'бла бл а'}
+2022-03-03 22:46:14,483 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336774.1314728, 'account_name': 'Roma'}
+2022-03-03 22:46:15,014 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336774.7104273, 'account_name': 'Roma'}
+2022-03-03 22:46:15,549 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336775.05862, 'account_name': 'Roma'}
+2022-03-03 22:46:18,628 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336778.3117304, 'account_name': 'Roma'}
+2022-03-03 22:46:18,658 INFO server.py Клиент Roma корректно отключился от сервера.
+2022-03-03 22:46:36,498 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336796.115846, 'account_name': 'client_2'}
+2022-03-03 22:46:36,521 INFO server.py Клиент client_2 корректно отключился от сервера.
+2022-03-03 22:47:01,691 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57431)
+2022-03-03 22:47:02,211 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336821.691617, 'user': {'account_name': 'Demid'}}
+2022-03-03 22:47:02,738 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336822.2332819, 'account_name': 'Demid'}
+2022-03-03 22:47:03,260 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336822.754306, 'user': 'Demid'}
+2022-03-03 22:47:16,601 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57432)
+2022-03-03 22:47:16,604 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336836.6017513, 'user': {'account_name': 'Vera'}}
+2022-03-03 22:47:17,142 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336836.6283553, 'account_name': 'Vera'}
+2022-03-03 22:47:17,671 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336837.1746428, 'user': 'Vera'}
+2022-03-03 22:47:21,758 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336841.6973646, 'account_name': 'Vera'}
+2022-03-03 22:47:28,878 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336848.4551418, 'user': 'Vera', 'account_name': 'Demid'}
+2022-03-03 22:47:50,372 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336870.173172, 'mess_text': 'привет Вера'}
+2022-03-03 22:47:50,418 INFO server.py Отправлено сообщение пользователю Demid от пользователя Vera.
+2022-03-03 22:47:56,521 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336876.1525517, 'user': 'Demid', 'account_name': 'Vera'}
+2022-03-03 22:48:07,275 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336886.944327, 'mess_text': 'привет Демид'}
+2022-03-03 22:48:07,325 INFO server.py Отправлено сообщение пользователю Demid от пользователя Vera.
+2022-03-03 22:48:18,497 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Vera', 'time': 1646336897.82951, 'mess_text': 'ой не там'}
+2022-03-03 22:48:18,531 INFO server.py Отправлено сообщение пользователю Vera от пользователя Demid.
+2022-03-03 22:48:52,319 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336932.1579282, 'account_name': 'Demid'}
+2022-03-03 22:48:52,347 INFO server.py Клиент Demid корректно отключился от сервера.
+2022-03-03 22:48:57,975 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336937.0167542, 'mess_text': 'даи'}
+2022-03-03 22:49:06,627 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336946.5137, 'mess_text': 'ау'}
+2022-03-03 22:49:13,234 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336953.015968, 'account_name': 'Vera'}
+2022-03-03 22:49:13,257 INFO server.py Клиент Vera корректно отключился от сервера.

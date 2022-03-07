@@ -1,136 +1,206 @@
-2022-03-03 12:37:05,916 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 19:53:56,650 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 20:01:50,562 DEBUG server.py Была вызвана функция create_arg_parser c параметрами ('7777', ''), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
-2022-03-03 20:01:50,593 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 20:45:31,293 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 22:15:29,350 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 22:15:56,957 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57481)
-2022-03-03 22:15:57,476 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646334956.9578888, 'user': {'account_name': 'Olga'}}
-2022-03-03 22:15:58,023 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646334957.5066042, 'account_name': 'Olga'}
-2022-03-03 22:15:58,569 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646334958.0383508, 'user': 'Olga'}
-2022-03-03 22:16:58,022 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60906)
-2022-03-03 22:16:58,528 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335018.0223296, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:16:59,053 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335018.5494442, 'account_name': 'Roma'}
-2022-03-03 22:16:59,562 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335019.069678, 'user': 'Roma'}
-2022-03-03 22:17:36,245 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335055.6906176, 'user': 'Roma', 'account_name': 'Olga'}
-2022-03-03 22:17:44,938 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335064.5241144, 'account_name': 'Olga'}
-2022-03-03 22:17:45,454 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335064.9533381, 'account_name': 'Olga'}
-2022-03-03 22:17:45,960 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335065.469723, 'account_name': 'Olga'}
-2022-03-03 22:17:48,009 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335067.6223667, 'user': 'Olga', 'account_name': 'Roma'}
-2022-03-03 22:18:01,313 INFO server.py Клиент ('127.0.0.1', 57481) отключился от сервера.
-2022-03-03 22:18:10,430 INFO server.py Клиент ('127.0.0.1', 60906) отключился от сервера.
-2022-03-03 22:20:15,705 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60930)
-2022-03-03 22:20:16,205 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335215.7058704, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:20:16,721 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335216.2059066, 'account_name': 'Roma'}
-2022-03-03 22:20:17,221 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335216.7368767, 'user': 'Roma'}
-2022-03-03 22:20:43,182 INFO server.py Клиент ('127.0.0.1', 60930) отключился от сервера.
-2022-03-03 22:26:30,254 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60972)
-2022-03-03 22:26:30,254 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335590.2547643, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:26:30,770 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335590.270389, 'account_name': 'Roma'}
-2022-03-03 22:26:31,285 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335590.7859182, 'user': 'Roma'}
-2022-03-03 22:27:30,053 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60978)
-2022-03-03 22:27:30,556 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335650.053847, 'user': {'account_name': 'Olga'}}
-2022-03-03 22:27:31,089 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335650.5716455, 'account_name': 'Olga'}
-2022-03-03 22:27:31,594 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335651.1040494, 'user': 'Olga'}
-2022-03-03 22:29:06,841 INFO server.py Клиент ('127.0.0.1', 60978) отключился от сервера.
-2022-03-03 22:29:20,618 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646335760.118114, 'account_name': 'Roma'}
-2022-03-03 22:29:20,618 INFO server.py Клиент Roma корректно отключился от сервера.
-2022-03-03 22:30:48,980 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
-2022-03-03 22:31:12,944 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61018)
-2022-03-03 22:31:12,949 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335872.9449055, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:31:13,477 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335872.9696736, 'account_name': 'Roma'}
-2022-03-03 22:31:13,996 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335873.4920468, 'user': 'Roma'}
-2022-03-03 22:31:32,538 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61020)
-2022-03-03 22:31:33,044 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335892.5399797, 'user': {'account_name': 'Olga'}}
-2022-03-03 22:31:33,563 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335893.0587852, 'account_name': 'Olga'}
-2022-03-03 22:31:34,068 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335893.5764298, 'user': 'Olga'}
-2022-03-03 22:31:40,683 INFO server.py Клиент ('127.0.0.1', 61020) отключился от сервера.
-2022-03-03 22:31:49,367 INFO server.py Клиент ('127.0.0.1', 61018) отключился от сервера.
-2022-03-03 22:32:08,153 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61025)
-2022-03-03 22:32:08,157 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335928.15304, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:32:08,683 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335928.168, 'account_name': 'Roma'}
-2022-03-03 22:32:09,200 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335928.6983619, 'user': 'Roma'}
-2022-03-03 22:32:13,782 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646335933.2419693, 'user': 'Roma', 'account_name': 'Olga'}
-2022-03-03 22:32:27,334 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61031)
-2022-03-03 22:32:27,844 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646335947.3348422, 'user': {'account_name': 'Olga'}}
-2022-03-03 22:32:28,360 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335947.856084, 'account_name': 'Olga'}
-2022-03-03 22:32:28,877 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646335948.3751698, 'user': 'Olga'}
-2022-03-03 22:32:32,950 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646335952.7815416, 'user': 'Olga', 'account_name': 'Roma'}
-2022-03-03 22:32:40,119 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335959.681446, 'account_name': 'Olga'}
-2022-03-03 22:32:40,634 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646335960.3188708, 'account_name': 'Olga'}
-2022-03-03 22:32:42,668 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335962.1735787, 'user': 'Olga', 'account_name': 'Roma'}
-2022-03-03 22:32:52,378 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646335972.1094763, 'user': 'Roma', 'account_name': 'Olga'}
-2022-03-03 22:32:57,482 INFO server.py Клиент ('127.0.0.1', 61025) отключился от сервера.
-2022-03-03 22:38:34,852 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57349)
-2022-03-03 22:38:34,855 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336314.8520827, 'user': {'account_name': 'cleint_1'}}
-2022-03-03 22:38:35,405 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336314.8824863, 'account_name': 'cleint_1'}
-2022-03-03 22:38:35,924 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336315.444309, 'user': 'cleint_1'}
-2022-03-03 22:38:52,250 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336332.0914114, 'user': 'cleint_1', 'account_name': 'Olga'}
-2022-03-03 22:39:26,954 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57356)
-2022-03-03 22:39:27,462 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336366.954453, 'user': {'account_name': 'client_2'}}
-2022-03-03 22:39:28,005 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336367.5011904, 'account_name': 'client_2'}
-2022-03-03 22:39:28,524 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336368.0215485, 'user': 'client_2'}
-2022-03-03 22:39:36,154 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336375.66516, 'user': 'client_2', 'account_name': 'cleint_1'}
-2022-03-03 22:39:56,079 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336396.0188963, 'account_name': 'Olga'}
-2022-03-03 22:39:56,103 INFO server.py Клиент Olga корректно отключился от сервера.
-2022-03-03 22:40:40,455 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'client_2', 'to': 'cleint_1', 'time': 1646336440.3567119, 'mess_text': 'Привет'}
-2022-03-03 22:40:40,505 INFO server.py Отправлено сообщение пользователю cleint_1 от пользователя client_2.
-2022-03-03 22:40:52,734 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336452.2647262, 'user': 'cleint_1', 'account_name': 'client_2'}
-2022-03-03 22:41:27,975 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'cleint_1', 'to': 'Olga', 'time': 1646336487.0769691, 'mess_text': 'привет'}
-2022-03-03 22:41:44,777 DEBUG server.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646336504.754219, 'user': 'cleint_1', 'account_name': 'Olga'}
-2022-03-03 22:42:37,488 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57388)
-2022-03-03 22:42:37,994 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336557.4884632, 'user': {'account_name': 'cleint_3'}}
-2022-03-03 22:42:38,541 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336558.0288317, 'account_name': 'cleint_3'}
-2022-03-03 22:42:39,049 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336558.5583358, 'user': 'cleint_3'}
-2022-03-03 22:42:46,714 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336566.2013705, 'account_name': 'cleint_3'}
-2022-03-03 22:42:49,786 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336569.182845, 'user': 'cleint_3', 'account_name': 'cleint_1'}
-2022-03-03 22:43:00,509 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'cleint_3', 'to': 'cleint_1', 'time': 1646336580.4875255, 'mess_text': 'привет\n'}
-2022-03-03 22:43:00,532 INFO server.py Отправлено сообщение пользователю cleint_1 от пользователя cleint_3.
-2022-03-03 22:43:09,676 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336589.4953923, 'user': 'cleint_1', 'account_name': 'cleint_3'}
-2022-03-03 22:43:21,436 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336601.349382, 'account_name': 'cleint_1'}
-2022-03-03 22:43:21,460 INFO server.py Клиент cleint_1 корректно отключился от сервера.
-2022-03-03 22:43:22,482 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336602.0561082, 'account_name': 'cleint_3'}
-2022-03-03 22:43:22,493 INFO server.py Клиент cleint_3 корректно отключился от сервера.
-2022-03-03 22:44:42,695 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57399)
-2022-03-03 22:44:42,701 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336682.695587, 'user': {'account_name': 'Olga'}}
-2022-03-03 22:44:43,230 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336682.722515, 'account_name': 'Olga'}
-2022-03-03 22:44:43,744 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336683.2617407, 'user': 'Olga'}
-2022-03-03 22:44:51,891 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336691.0897272, 'account_name': 'Olga'}
-2022-03-03 22:45:01,063 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336700.6451523, 'user': 'Olga', 'account_name': 'cleint_1'}
-2022-03-03 22:45:22,081 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336721.352096, 'account_name': 'Olga'}
-2022-03-03 22:45:22,099 INFO server.py Клиент Olga корректно отключился от сервера.
-2022-03-03 22:45:46,896 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57418)
-2022-03-03 22:45:47,418 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336746.8968039, 'user': {'account_name': 'Roma'}}
-2022-03-03 22:45:47,962 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336747.4565725, 'account_name': 'Roma'}
-2022-03-03 22:45:48,488 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336747.9819498, 'user': 'Roma'}
-2022-03-03 22:45:57,162 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Roma', 'to': 'Olga', 'time': 1646336756.7859874, 'mess_text': 'бла бл а'}
-2022-03-03 22:46:14,483 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336774.1314728, 'account_name': 'Roma'}
-2022-03-03 22:46:15,014 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336774.7104273, 'account_name': 'Roma'}
-2022-03-03 22:46:15,549 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336775.05862, 'account_name': 'Roma'}
-2022-03-03 22:46:18,628 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336778.3117304, 'account_name': 'Roma'}
-2022-03-03 22:46:18,658 INFO server.py Клиент Roma корректно отключился от сервера.
-2022-03-03 22:46:36,498 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336796.115846, 'account_name': 'client_2'}
-2022-03-03 22:46:36,521 INFO server.py Клиент client_2 корректно отключился от сервера.
-2022-03-03 22:47:01,691 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57431)
-2022-03-03 22:47:02,211 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336821.691617, 'user': {'account_name': 'Demid'}}
-2022-03-03 22:47:02,738 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336822.2332819, 'account_name': 'Demid'}
-2022-03-03 22:47:03,260 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336822.754306, 'user': 'Demid'}
-2022-03-03 22:47:16,601 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57432)
-2022-03-03 22:47:16,604 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646336836.6017513, 'user': {'account_name': 'Vera'}}
-2022-03-03 22:47:17,142 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336836.6283553, 'account_name': 'Vera'}
-2022-03-03 22:47:17,671 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646336837.1746428, 'user': 'Vera'}
-2022-03-03 22:47:21,758 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646336841.6973646, 'account_name': 'Vera'}
-2022-03-03 22:47:28,878 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336848.4551418, 'user': 'Vera', 'account_name': 'Demid'}
-2022-03-03 22:47:50,372 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336870.173172, 'mess_text': 'привет Вера'}
-2022-03-03 22:47:50,418 INFO server.py Отправлено сообщение пользователю Demid от пользователя Vera.
-2022-03-03 22:47:56,521 DEBUG server.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646336876.1525517, 'user': 'Demid', 'account_name': 'Vera'}
-2022-03-03 22:48:07,275 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336886.944327, 'mess_text': 'привет Демид'}
-2022-03-03 22:48:07,325 INFO server.py Отправлено сообщение пользователю Demid от пользователя Vera.
-2022-03-03 22:48:18,497 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Vera', 'time': 1646336897.82951, 'mess_text': 'ой не там'}
-2022-03-03 22:48:18,531 INFO server.py Отправлено сообщение пользователю Vera от пользователя Demid.
-2022-03-03 22:48:52,319 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336932.1579282, 'account_name': 'Demid'}
-2022-03-03 22:48:52,347 INFO server.py Клиент Demid корректно отключился от сервера.
-2022-03-03 22:48:57,975 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336937.0167542, 'mess_text': 'даи'}
-2022-03-03 22:49:06,627 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vera', 'to': 'Demid', 'time': 1646336946.5137, 'mess_text': 'ау'}
-2022-03-03 22:49:13,234 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646336953.015968, 'account_name': 'Vera'}
-2022-03-03 22:49:13,257 INFO server.py Клиент Vera корректно отключился от сервера.
+2022-03-07 16:24:36,833 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 16:24:36,833 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:24:36,943 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:25:32,389 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 16:25:32,389 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:25:32,420 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:26:26,449 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 16:26:26,465 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:26:26,496 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:26:50,938 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56761)
+2022-03-07 16:26:51,448 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646659610.949425, 'user': {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl5Kj/Qq3lPPLjWvPBNxi\nb+fDjIt3hc+EOZrAgqJZ5Me9rKmyL4+DdIAvjwi5TQCDwdpNaPJGB5dvFbB9dPSt\nxRsdg9EZfbGbn8pX9I728lHueKc2kpRI8Gp64vfa7/WQJpNfJjOES+zN5/ZIuAY4\nJ7lnOnhiKhY8IQrizrnjDwktTZEnkhH8Z7598UeJ5VPZnHXY1yCo5bg3YyFUX4hH\ncQeq8NIRrysrZNlmHn33n68rRCj/L5LW+myihcrNA7eEjMd8tA0d/qmWsThCVqp0\nExcFrCv0Jrho2KI8E4rk0QicQM6pkYJuszfSo5X5Jb7OSAlgKeL4LfkCwzqQ7iud\nKQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:26:51,448 DEBUG core.py Start auth process for {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl5Kj/Qq3lPPLjWvPBNxi\nb+fDjIt3hc+EOZrAgqJZ5Me9rKmyL4+DdIAvjwi5TQCDwdpNaPJGB5dvFbB9dPSt\nxRsdg9EZfbGbn8pX9I728lHueKc2kpRI8Gp64vfa7/WQJpNfJjOES+zN5/ZIuAY4\nJ7lnOnhiKhY8IQrizrnjDwktTZEnkhH8Z7598UeJ5VPZnHXY1yCo5bg3YyFUX4hH\ncQeq8NIRrysrZNlmHn33n68rRCj/L5LW+myihcrNA7eEjMd8tA0d/qmWsThCVqp0\nExcFrCv0Jrho2KI8E4rk0QicQM6pkYJuszfSo5X5Jb7OSAlgKeL4LfkCwzqQ7iud\nKQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:28:32,252 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 16:28:32,252 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:28:32,330 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:29:54,846 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56798)
+2022-03-07 16:29:55,358 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646659794.8568926, 'user': {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuSO/or9ta2lNoKVFmmbi\n3xXaNK7bjodFujhVbRZUUtQygVqo5tT7/rGqRRD7AQ9nZHZawHfAJmbGuieluo1g\ny8KcDEb1q83NZd2QzT4E4XlhgYBoeSq4AnAzjidTWqnzZJ8nsKEGaP84j+wJyvoC\n09XlRhoR6+qkwxUNuzPjL47dP9OpKvwwv8SYaOmpxFT7U/5DYsN2djHN8tejfs2A\ntLq+csYDSi+T+G63QhrBVQ6lpOlnh4Usursf4NXFLzK4pwioYF5nXhG6urnE6CrD\neNgT3N52phMREzcU8ZIfA2EsME720kq6SGBfKmq0YImP2XQKAX7nezYYvHtI0Vy2\npQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:29:55,358 DEBUG core.py Start auth process for {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuSO/or9ta2lNoKVFmmbi\n3xXaNK7bjodFujhVbRZUUtQygVqo5tT7/rGqRRD7AQ9nZHZawHfAJmbGuieluo1g\ny8KcDEb1q83NZd2QzT4E4XlhgYBoeSq4AnAzjidTWqnzZJ8nsKEGaP84j+wJyvoC\n09XlRhoR6+qkwxUNuzPjL47dP9OpKvwwv8SYaOmpxFT7U/5DYsN2djHN8tejfs2A\ntLq+csYDSi+T+G63QhrBVQ6lpOlnh4Usursf4NXFLzK4pwioYF5nXhG6urnE6CrD\neNgT3N52phMREzcU8ZIfA2EsME720kq6SGBfKmq0YImP2XQKAX7nezYYvHtI0Vy2\npQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:29:55,359 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:29:55,360 DEBUG core.py Auth message = {'response': 511, 'bin': '38296b02e00a3b828dc7e556b70dac51b49e3b0f9fc54be83c43de614e0e9f80ec476f34197bc54004a718dc7b59ef20006b5317bdf37f8ff59731ecdf186e33'}
+2022-03-07 16:29:55,897 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659795.3686574, 'account_name': 'Pavel'}
+2022-03-07 16:29:56,419 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646659795.913873, 'user': 'Pavel'}
+2022-03-07 16:30:12,647 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56800)
+2022-03-07 16:30:13,157 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646659812.6576233, 'user': {'account_name': 'Dima', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4q3dPRNAezlb+2uODfnJ\nUwU7wbhxdrA4FWFU86HKXOdUnCx1RvqI54SceAQPYhAVtHLa3xqPe8lx6hAP8hU4\nBXezo331NZNoK5GAivsenHHhztm3BWBpaN10bHewAlTYLyyHjWHttq0Bxm9/jTfH\n1fbGKhAbRaxSKvjLj5BexKLb/i7/IvZ3iGiERVriWG7MoRZ+baS+AKnmY6OgZ+Mr\n4BYJhObuJ2XxS3xxKvfXInYWr8OreOTKim0IOxn20Os9fRmYV1G1psIRWdivY6A6\nF8+SXBE5YQJaRxl5jHtow4Om3Vg2h19ZWdIhGFMJuQ6fgAxTg675vH4GtiN+KNfK\n7QIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:30:13,157 DEBUG core.py Start auth process for {'account_name': 'Dima', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4q3dPRNAezlb+2uODfnJ\nUwU7wbhxdrA4FWFU86HKXOdUnCx1RvqI54SceAQPYhAVtHLa3xqPe8lx6hAP8hU4\nBXezo331NZNoK5GAivsenHHhztm3BWBpaN10bHewAlTYLyyHjWHttq0Bxm9/jTfH\n1fbGKhAbRaxSKvjLj5BexKLb/i7/IvZ3iGiERVriWG7MoRZ+baS+AKnmY6OgZ+Mr\n4BYJhObuJ2XxS3xxKvfXInYWr8OreOTKim0IOxn20Os9fRmYV1G1psIRWdivY6A6\nF8+SXBE5YQJaRxl5jHtow4Om3Vg2h19ZWdIhGFMJuQ6fgAxTg675vH4GtiN+KNfK\n7QIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:30:13,158 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:30:13,158 DEBUG core.py Auth message = {'response': 511, 'bin': 'ff086dd28828901550507658bfe7ff5476d5db234af9ee989b8b14b1c78bda32c12f8e4090f6684e822192cb88289cbe188243516556c8f0eb54a7709ec2c94e'}
+2022-03-07 16:30:13,678 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659813.165407, 'account_name': 'Dima'}
+2022-03-07 16:30:14,197 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646659813.693316, 'user': 'Dima'}
+2022-03-07 16:30:20,297 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659820.2201385, 'account_name': 'Dima'}
+2022-03-07 16:30:21,324 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646659821.0067985, 'user': 'Dima', 'account_name': 'Pavel'}
+2022-03-07 16:30:34,612 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659834.5192087, 'account_name': 'Pavel'}
+2022-03-07 16:31:33,057 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dima', 'to': 'Pavel', 'time': 1646659892.6862683, 'mess_text': 'EgE6cN/P6ABwuufi9fi/N0aLjHm5hVOkAxPKRyXvqTFhUyjkkmWJQSk+vTY8bacwsM6yGEVRwlexo1cXXfvYNrigr7Qt/NRzLBr6cmsTagQljavPnC0qY9j5I+/T3e8w/dwPNaAJBj3YcLC2FO547Wgpvi29nKCjw1BHElow+slWfSvRXmyeu3EJDj3twK2qyNR2H8ojcVoK+HsW8D2wCggB9z83eBnhv07Ja3JXnbHH975PRTvPYSYlNlbZry4LJsYVXbnfPil0VKRZGUMZIhkG7xyYeaoNjeRNY7DmH9+umdOAUjlYTnJ1IY1r5+4ALxeOO0b3eXG7vT1SaiZeaw=='}
+2022-03-07 16:31:33,072 INFO core.py Отправлено сообщение пользователю Pavel от пользователя Dima.
+2022-03-07 16:31:41,732 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659901.4888773, 'account_name': 'Pavel'}
+2022-03-07 16:31:42,749 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646659902.4028819, 'user': 'Pavel', 'account_name': 'Dima'}
+2022-03-07 16:31:44,779 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659904.3912957, 'account_name': 'Dima'}
+2022-03-07 16:31:49,899 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659909.8524318, 'account_name': 'Dima'}
+2022-03-07 16:31:59,041 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Pavel', 'to': 'Dima', 'time': 1646659918.6453428, 'mess_text': 'WDceY6Kf8BI/DlhdKKoqij9HgHWoxc9Nl+OXUng0W1nOYSLdm1uf0oMmrKGOVixT5Xz0WPGs8yQb13uHSahfQvSNGjsrlfey5e8C+afjcPozvcfiuljMeYSgl4fBOXGlAvnmizLQtU+VU8obIKSuILyqRrU6UtU7x1lMH3klXCIaRpBBFBI2H9UCYLMoY1KZ8TTKghkY26bB9+1gvL1iHeIJivk/wwywVSmQRtd4FfpLrRpvM9mvRZgcY0YwXOPYZVVIn5UhpFj84s0Z8AxqaBdpqKv69eLy96Vb1dR1TURdUAeyu83jLxARkkatO34LsKohuaYAJGQKKnDKlO6czQ=='}
+2022-03-07 16:31:59,041 INFO core.py Отправлено сообщение пользователю Dima от пользователя Pavel.
+2022-03-07 16:32:03,647 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646659923.1473098, 'account_name': 'Dima'}
+2022-03-07 16:32:03,647 INFO core.py Клиент ('127.0.0.1', 56800) отключился от сервера.
+2022-03-07 16:32:04,163 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646659923.8976622, 'account_name': 'Pavel'}
+2022-03-07 16:32:04,163 INFO core.py Клиент ('127.0.0.1', 56798) отключился от сервера.
+2022-03-07 16:32:33,359 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56830)
+2022-03-07 16:32:33,874 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646659953.369066, 'user': {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuSO/or9ta2lNoKVFmmbi\n3xXaNK7bjodFujhVbRZUUtQygVqo5tT7/rGqRRD7AQ9nZHZawHfAJmbGuieluo1g\ny8KcDEb1q83NZd2QzT4E4XlhgYBoeSq4AnAzjidTWqnzZJ8nsKEGaP84j+wJyvoC\n09XlRhoR6+qkwxUNuzPjL47dP9OpKvwwv8SYaOmpxFT7U/5DYsN2djHN8tejfs2A\ntLq+csYDSi+T+G63QhrBVQ6lpOlnh4Usursf4NXFLzK4pwioYF5nXhG6urnE6CrD\neNgT3N52phMREzcU8ZIfA2EsME720kq6SGBfKmq0YImP2XQKAX7nezYYvHtI0Vy2\npQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:32:33,874 DEBUG core.py Start auth process for {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuSO/or9ta2lNoKVFmmbi\n3xXaNK7bjodFujhVbRZUUtQygVqo5tT7/rGqRRD7AQ9nZHZawHfAJmbGuieluo1g\ny8KcDEb1q83NZd2QzT4E4XlhgYBoeSq4AnAzjidTWqnzZJ8nsKEGaP84j+wJyvoC\n09XlRhoR6+qkwxUNuzPjL47dP9OpKvwwv8SYaOmpxFT7U/5DYsN2djHN8tejfs2A\ntLq+csYDSi+T+G63QhrBVQ6lpOlnh4Usursf4NXFLzK4pwioYF5nXhG6urnE6CrD\neNgT3N52phMREzcU8ZIfA2EsME720kq6SGBfKmq0YImP2XQKAX7nezYYvHtI0Vy2\npQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:32:33,875 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:32:33,876 DEBUG core.py Auth message = {'response': 511, 'bin': '08c2d1b8f348d203885a8f3dd9971dea4908736c23601623cb5e849485a38a4a4056c860eb42da1426254ad34e60441ac40436bbf4cd1d15ac394986d080d7ac'}
+2022-03-07 16:32:34,405 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659953.8829036, 'account_name': 'Pavel'}
+2022-03-07 16:32:34,920 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646659954.4201014, 'user': 'Pavel'}
+2022-03-07 16:32:36,974 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659956.5210245, 'account_name': 'Dima'}
+2022-03-07 16:33:00,467 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56835)
+2022-03-07 16:33:00,980 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646659980.477605, 'user': {'account_name': 'Dima', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4q3dPRNAezlb+2uODfnJ\nUwU7wbhxdrA4FWFU86HKXOdUnCx1RvqI54SceAQPYhAVtHLa3xqPe8lx6hAP8hU4\nBXezo331NZNoK5GAivsenHHhztm3BWBpaN10bHewAlTYLyyHjWHttq0Bxm9/jTfH\n1fbGKhAbRaxSKvjLj5BexKLb/i7/IvZ3iGiERVriWG7MoRZ+baS+AKnmY6OgZ+Mr\n4BYJhObuJ2XxS3xxKvfXInYWr8OreOTKim0IOxn20Os9fRmYV1G1psIRWdivY6A6\nF8+SXBE5YQJaRxl5jHtow4Om3Vg2h19ZWdIhGFMJuQ6fgAxTg675vH4GtiN+KNfK\n7QIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:33:00,980 DEBUG core.py Start auth process for {'account_name': 'Dima', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4q3dPRNAezlb+2uODfnJ\nUwU7wbhxdrA4FWFU86HKXOdUnCx1RvqI54SceAQPYhAVtHLa3xqPe8lx6hAP8hU4\nBXezo331NZNoK5GAivsenHHhztm3BWBpaN10bHewAlTYLyyHjWHttq0Bxm9/jTfH\n1fbGKhAbRaxSKvjLj5BexKLb/i7/IvZ3iGiERVriWG7MoRZ+baS+AKnmY6OgZ+Mr\n4BYJhObuJ2XxS3xxKvfXInYWr8OreOTKim0IOxn20Os9fRmYV1G1psIRWdivY6A6\nF8+SXBE5YQJaRxl5jHtow4Om3Vg2h19ZWdIhGFMJuQ6fgAxTg675vH4GtiN+KNfK\n7QIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:33:00,981 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:33:00,981 DEBUG core.py Auth message = {'response': 511, 'bin': 'f27b243ce05f3158afd17716ab1ad4d02dea75e50b02a85c52329cb39b1e9be617bcc1fec0d65fc2cb95522d506144eda4323868d4d6ed206e8c905782208043'}
+2022-03-07 16:33:01,503 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646659980.9881732, 'account_name': 'Dima'}
+2022-03-07 16:33:02,021 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646659981.5170944, 'user': 'Dima'}
+2022-03-07 16:33:04,044 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659983.2625144, 'account_name': 'Pavel'}
+2022-03-07 16:33:04,559 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646659984.0440722, 'account_name': 'Pavel'}
+2022-03-07 16:33:11,176 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dima', 'to': 'Pavel', 'time': 1646659991.018443, 'mess_text': 'sS853LS01gCK2OepkyRbAPmvl3AW2DgrhYDrWu5bwAEBsvMhr43IPtN2177fsUqtLT4EG+gLRUVg7SnAtV1nY84+6tFl5mcOCnIwP/a96zoGwjx8cPm03OICF7hnFH5LDGLQK66Y/hsQt5IR5iFvvsLAyWV7inkjEzanLlyjR/tkm8vk16QoXNilsj7reh0Y8pJ4DH0kQfkbjWczgsS5+NR0cvLETrYz/8yQxC4CfTG1QtJymHyscDUzTL0jdE8SieszX5QIq8Zxf0gTEGgncsmS7mN1ctmwK4I3e5QWm8OdJSlQuC2Mvyyfv+QKkXshGzMTRucnDfFlR7zZheNdsQ=='}
+2022-03-07 16:33:11,187 INFO core.py Отправлено сообщение пользователю Pavel от пользователя Dima.
+2022-03-07 16:33:19,335 DEBUG core.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646659999.3056295, 'user': 'Pavel', 'account_name': 'Dima'}
+2022-03-07 16:33:28,541 DEBUG core.py Разбор сообщения от клиента : {'action': 'remove', 'time': 1646660008.1573894, 'user': 'Dima', 'account_name': 'Pavel'}
+2022-03-07 16:33:37,170 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646660017.103463, 'user': 'Dima', 'account_name': 'Pavel'}
+2022-03-07 16:33:41,784 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646660021.3729753, 'user': 'Pavel', 'account_name': 'Dima'}
+2022-03-07 16:33:43,845 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660023.6870108, 'account_name': 'Dima'}
+2022-03-07 16:33:50,975 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660030.7406967, 'account_name': 'Pavel'}
+2022-03-07 16:33:53,509 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660033.0718331, 'account_name': 'Dima'}
+2022-03-07 16:34:01,123 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Pavel', 'to': 'Dima', 'time': 1646660040.6551042, 'mess_text': 'yp5ox5DXHmwxB3Ovj8o9FjOgzw+InddKjGDjQKG/fnH0nQlTQwVl9IQlh39hSOrHDHW+Ha4s3zxn7/Mx+F00cJBDp/3PAaypHtJObgyeBy9j4NpqGBwsa6Svhz1G1AT+oAd4SAAtA/uPiLVkB4+YHYc1ufaSlf8oyg2DT965kQHFN26rlZY2lU+O/2ORNYjUFXNs7e7ci06a8vgb2OepwJYJMXxQ7iZ2wt9YvBT5bmc4MDDg9LRMV1663sEKJ6rRs6ukNtusILdoocmE9MF+Hyrl8XJ+P9E9aVyK2pdBg37zCj3lZOvtUclfiJEMqY5pwU1w4FVdDDpW6RKtemkO2w=='}
+2022-03-07 16:34:01,138 INFO core.py Отправлено сообщение пользователю Dima от пользователя Pavel.
+2022-03-07 16:34:17,923 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dima', 'to': 'Pavel', 'time': 1646660057.6758454, 'mess_text': 'H5b1mDrfXrsczrPDMuK8S+4wPEMmUzNiliMG+Pj06K1le+l/BLnmkJniWBjVU3i4aWKtUSs/+cbBOMnZi6jjxEic0g/pdgo9RK8UTSI4zJ3J7w9ufaUX8I/jvtEYvGywWwynwW06qoHLcazS0vFVYAkcywNyZjc4PabFnJrQiJ7i84wci6GhvFc5eZEIlG4MO+hLPg7XKN4UDLISehLBp/6K9znZgdHQIKwmBOq6CSS9wPhP7+EZhn41NPbMGuF+atmk9vByVyaXAVC1S0KTpjMB4UqaI8pzlDiBg19jjnBnnRN90c8eDqcwrRi/XyGUNqSRsPuVE1C3HxqkVGxt2g=='}
+2022-03-07 16:34:17,923 INFO core.py Отправлено сообщение пользователю Pavel от пользователя Dima.
+2022-03-07 16:34:37,767 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Pavel', 'to': 'Dima', 'time': 1646660077.3138177, 'mess_text': 'qqEAMchU2c3QZLo/pog1e2cajIA82q6mEfQHVJfjbSNr5YJ2EAJddEW0jVAxIbFDxanbyM6gI+y/q09LRbUEczCSOUVnM4x1j0vJlDh8NcoFvY5XJb01F4UCHrrtUbMfYec4f5rfB6pyKFbXw5dTp2H090KkwMqDLi8838r5wuckHP1oIxZj5sL2H8SfujL/VFauAJA/ltgQTjGQAciU3mi2/Jm2W59X69GdQ+At9cioKp2uAloCHxtlsmf5adb/tCbxsEB61QnGKaFTeMVIkYTXTF9Zf+ymHv8dvraWLm/M4XBPUQ4SfDa7myswOTj70kvvMr4u8a+yT7iIyUIu4g=='}
+2022-03-07 16:34:37,780 INFO core.py Отправлено сообщение пользователю Dima от пользователя Pavel.
+2022-03-07 16:34:40,330 DEBUG core.py Getting data from client exception.
+Traceback (most recent call last):
+  File "D:\GB\python_client-server_applications\server\core.py", line 88, in run
+    get_message(client_with_message), client_with_message)
+  File "D:\GB\python_client-server_applications\common\decor.py", line 32, in save_logger
+    ret = func(*args, **kwargs)
+  File "D:\GB\python_client-server_applications\common\utils.py", line 20, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2022-03-07 16:34:40,330 INFO core.py Клиент ('127.0.0.1', 56830) отключился от сервера.
+2022-03-07 16:34:52,520 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646660092.4731617, 'account_name': 'Dima'}
+2022-03-07 16:34:52,520 INFO core.py Клиент ('127.0.0.1', 56835) отключился от сервера.
+2022-03-07 16:44:28,206 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 16:44:28,206 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 16:44:28,269 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 16:45:40,536 INFO core.py Установлено соедение с ПК ('127.0.0.1', 55934)
+2022-03-07 16:45:41,040 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646660740.5454872, 'user': {'account_name': 'Olga', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3q/BaZ8MXRZn/QKfaVwb\n3rd7/+Q+gQvmoM0DObmmj2Uw1sBP5axKvtlIhvkbbL8/ABTVDVhWOjBrp+TOjnON\ngGMzvd4jk21cipqhwMkTqDYCAdITDzOxQSuGsA364rLTYd8Wh4vvY2R6B6TJ1E4I\n+wVPmQESZo7CJmI6MOAsnJlTO+TdvC7qJUVZ7VL7DDFh/1gMaQpaTEhOlZMksZSk\ndHd+gitNeI/9aMnODQspth00TB3uH92JwTq7mC248cuJZiC1/6rxryv8PFkHSwMH\nYmykuNHnN3My6LUu+B5oNk06EalsioGyUbF9Cz9td+nhuFeefpMaBnaof5ZtitM+\n/wIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:45:41,040 DEBUG core.py Start auth process for {'account_name': 'Olga', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3q/BaZ8MXRZn/QKfaVwb\n3rd7/+Q+gQvmoM0DObmmj2Uw1sBP5axKvtlIhvkbbL8/ABTVDVhWOjBrp+TOjnON\ngGMzvd4jk21cipqhwMkTqDYCAdITDzOxQSuGsA364rLTYd8Wh4vvY2R6B6TJ1E4I\n+wVPmQESZo7CJmI6MOAsnJlTO+TdvC7qJUVZ7VL7DDFh/1gMaQpaTEhOlZMksZSk\ndHd+gitNeI/9aMnODQspth00TB3uH92JwTq7mC248cuJZiC1/6rxryv8PFkHSwMH\nYmykuNHnN3My6LUu+B5oNk06EalsioGyUbF9Cz9td+nhuFeefpMaBnaof5ZtitM+\n/wIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:45:41,041 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:45:41,043 DEBUG core.py Auth message = {'response': 511, 'bin': '137fc06e3a40cc5d33dafe393a355c7b6e4adb4658dd0e53c14e48d8770025267287ea7689647bc0fa4ef5f3e6eb75a81cc40b20029d5fd22975cc969c5c3291'}
+2022-03-07 16:45:41,565 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646660741.0495381, 'account_name': 'Olga'}
+2022-03-07 16:45:42,082 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646660741.578196, 'user': 'Olga'}
+2022-03-07 16:46:28,403 INFO core.py Установлено соедение с ПК ('127.0.0.1', 55952)
+2022-03-07 16:46:28,914 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646660788.4148383, 'user': {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtoeCTAOIPIjIQsFmvFLK\nGYlzTxrPOIgrQ6/SiNEBwwFPYYsAh2lQF3CSl/bwM6QZzeTgiwUJwLYQQtHSJj0d\nxjR/puPI/sAtvG4LgRjkFJa4Ns5P2NUWuwNFHb//8al61TK0BqD+lTHPztc3lmx4\nvbAfilc1FmYoSXMYd52JYrL7xCoo8EkVWdwWWoe7EU4yQkFvD1xSe3llPZelKS77\nRbB3EbiZSmqJwDFLxPEKctIKH6JzvkVAfj7PpKp59ygAf1oHgZJs3Zyf848OlIaZ\nGca5KetXWAYaQraqcO6mAVb85/l6TFzJ46ACAH5uBazH6L1vGFdDE/UgmfYOal11\nSwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 16:46:28,914 DEBUG core.py Start auth process for {'account_name': 'Pavel', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtoeCTAOIPIjIQsFmvFLK\nGYlzTxrPOIgrQ6/SiNEBwwFPYYsAh2lQF3CSl/bwM6QZzeTgiwUJwLYQQtHSJj0d\nxjR/puPI/sAtvG4LgRjkFJa4Ns5P2NUWuwNFHb//8al61TK0BqD+lTHPztc3lmx4\nvbAfilc1FmYoSXMYd52JYrL7xCoo8EkVWdwWWoe7EU4yQkFvD1xSe3llPZelKS77\nRbB3EbiZSmqJwDFLxPEKctIKH6JzvkVAfj7PpKp59ygAf1oHgZJs3Zyf848OlIaZ\nGca5KetXWAYaQraqcO6mAVb85/l6TFzJ46ACAH5uBazH6L1vGFdDE/UgmfYOal11\nSwIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 16:46:28,915 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 16:46:28,915 DEBUG core.py Auth message = {'response': 511, 'bin': '728bb9640accf1d69ffa6676f6ce44b2765af06c832b2c6848896fcc2a09d0d4e4c2fb400dfdd22cb14e3c18705682fd6de101ea536949a39250c28d5b049b3c'}
+2022-03-07 16:46:29,446 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646660788.9225948, 'account_name': 'Pavel'}
+2022-03-07 16:46:29,963 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646660789.4618049, 'user': 'Pavel'}
+2022-03-07 16:46:36,608 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646660796.4818344, 'account_name': 'Pavel'}
+2022-03-07 16:46:37,122 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646660796.8878355, 'account_name': 'Pavel'}
+2022-03-07 16:46:37,637 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646660797.346267, 'account_name': 'Pavel'}
+2022-03-07 16:46:38,152 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646660798.0978355, 'user': 'Pavel', 'account_name': 'Olga'}
+2022-03-07 16:46:46,870 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646660806.7046852, 'user': 'Olga', 'account_name': 'Pavel'}
+2022-03-07 16:46:49,974 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660809.580178, 'account_name': 'Pavel'}
+2022-03-07 16:46:51,005 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660810.6616518, 'account_name': 'Pavel'}
+2022-03-07 16:46:54,585 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646660814.367046, 'account_name': 'Olga'}
+2022-03-07 16:47:03,742 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Olga', 'to': 'Pavel', 'time': 1646660823.278864, 'mess_text': 'OxTbAa/8VGVCQ+QiHC7d9OeUw31MHiMkJU+p9vDjW8bGMhqgBwwAUG/SRrY1CnVJNaa2tF8GHAnozDT4wL8u2scvJwxzwmNht/rJRzh3dQUJ6yB4sXMsye1s4I4kxH5Vn/ravkcw/kIK+LatncrTkrH5+mw/bZB9HtmuCdS3GbvN2K95l9SMHPeGSIonSlp7fP86xow2LaQEEkODVLq1145zPJ1BH0siPZ+miQzL4Xylpdrw8eJGSqtLeMKJTcOz9rttmxVWVlgaGuPdEMMPXHXeX76l6wDlCPz0FkIvoilbQ8GHSS5ja2remPJkNiFlsNjKSaNTv96DvpbsK6NQmg=='}
+2022-03-07 16:47:03,758 INFO core.py Отправлено сообщение пользователю Pavel от пользователя Olga.
+2022-03-07 16:47:16,497 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Pavel', 'to': 'Olga', 'time': 1646660836.0254526, 'mess_text': 'E2h0EzFcGJf7nrSe7tCM073rQVSuw+Z4a9PKmmlcS/YLsvEC2QcXZLQ0qlaWcotxdHTy6xPTp/vM5weCHJYvLuAyvOaQy839aroINu+oD2z0WSmdozjJPxzQonRIBiVnNc9nQ9YWlBDj7t5QTxxGqRfkepq3fRImIplGg0Wk51vze5awYzktdR8Dk5JU+i+5IEnN3QX1ibox2mNJIBRI5p4fs2saIB3A6OvfFb2XGuRqA+wssEKP+oaZxWJ6Y2MJYHC2wPj3PhpLEKoSZgjnjn9xQlX/zBrZQIyZXDXnZnT1ztUEcTSEin3Dzr428CiwgtxK1LgQZKndFqOLNnTB4g=='}
+2022-03-07 16:47:16,505 INFO core.py Отправлено сообщение пользователю Olga от пользователя Pavel.
+2022-03-07 16:47:25,674 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Olga', 'to': 'Pavel', 'time': 1646660845.4294863, 'mess_text': 'CjP9SArm6Am7ODhrjhd+7P++BUc1RpGbsOaawiHiO5fny33X41TtC35Fee3YevF7il2u8XHQ0pQoSUcaBQ2KLmFpKanmriXn1Meb51m69TvwmG4RyE97BrcKhj1mVGyc//jJUsuH0Av7WHPS3UAwwa+veDQeX2/0iBURIAisJt+YFCyh7cSc+Jp4gT7zRmydM6WXvZZtWj9i1kdVr91M+ttAo/NGEkE62DdHmz4MCegBDDKHBqMg6v6xRTQNKNKe+4H5yBcImcjbOtSTrRe55CZ0iWfTWGyq67qX+KtsTG8gmDtWeqBEjGPcKR3HWBuwy+90AJw7j8ZblMM8qUaBAA=='}
+2022-03-07 16:47:25,686 INFO core.py Отправлено сообщение пользователю Pavel от пользователя Olga.
+2022-03-07 16:47:42,496 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Pavel', 'to': 'Olga', 'time': 1646660862.4432778, 'mess_text': 'OgXJe5O84PyF/CU4UUlrCA/0Iwr3Cl6qHoEMESuInGr6p6pwnM1W+4iWf4zZO6Hfi3nswbptmJFkg0NeTSvmgudXjvuux/sA/KckziwfQHbaSbD5vBkST50SC0h2o5yTRNGDaOhqK83uPhLK8IRKvwDO4wGf1yPdl2XSu6FwdyzuWMihz7tPDmktuU2z0DppOjX+z1XCxeOD/3Uxl9NpVAnSDolufdREwnsb2dJcmA4R+WwDIyoEwn4uSQPzNQzYEcBp6U3dM2Z+0ogEwNnmYYyzEu6xicT+1tUAedp66uyyRQo7y7HTLfoqKEtvQ4SqxRpa/M7iE1KAiQ4O21X7XA=='}
+2022-03-07 16:47:42,511 INFO core.py Отправлено сообщение пользователю Olga от пользователя Pavel.
+2022-03-07 16:47:45,037 DEBUG core.py Getting data from client exception.
+Traceback (most recent call last):
+  File "D:\GB\python_client-server_applications\server\core.py", line 88, in run
+    get_message(client_with_message), client_with_message)
+  File "D:\GB\python_client-server_applications\common\decor.py", line 32, in save_logger
+    ret = func_to_log(*args, **kwargs)
+  File "D:\GB\python_client-server_applications\common\utils.py", line 20, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2022-03-07 16:47:45,037 INFO core.py Клиент ('127.0.0.1', 55952) отключился от сервера.
+2022-03-07 16:47:52,665 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646660872.2745636, 'account_name': 'Olga'}
+2022-03-07 16:47:52,665 INFO core.py Клиент ('127.0.0.1', 55934) отключился от сервера.
+2022-03-07 17:12:10,268 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/GB/python_client-server_applications/server.py']
+2022-03-07 17:12:10,268 DEBUG server.py Аргументы успешно загружены.
+2022-03-07 17:12:10,331 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-03-07 17:12:48,759 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56286)
+2022-03-07 17:12:49,260 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646662368.7697384, 'user': {'account_name': 'Demid', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjZ6doXif7TBx6BT/pUW+\nOEQA4yM5UlWMHUWSJBl920piqqIhuZwYLPIjDqCw6q/QtfQ8QkCXsLn9zku9aZp6\nCsWtvSW0b2sdWQJ7SgRScP8QI3y1tDYRH44KCytapCI3xrKmeWVBu2B6H1U55LpG\nT/4V8UN3eTACcwv3998d8o+1n1JHDyMNeNa6+5ulGjTVLji3okqhciMaoo6opG09\nZLev75AowGsCECmoCYEVzMCho2HY+aoUp3gu/cFIPzOAO1CDs3SZO8DnV8I3Dmh8\n9eH004Qq8TQhDt1pX2ZapAULlFsgaQx1R0UmuxVgpWaxt7jVmb1Ras9mEeKlv4zk\nsQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 17:12:49,261 DEBUG core.py Start auth process for {'account_name': 'Demid', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjZ6doXif7TBx6BT/pUW+\nOEQA4yM5UlWMHUWSJBl920piqqIhuZwYLPIjDqCw6q/QtfQ8QkCXsLn9zku9aZp6\nCsWtvSW0b2sdWQJ7SgRScP8QI3y1tDYRH44KCytapCI3xrKmeWVBu2B6H1U55LpG\nT/4V8UN3eTACcwv3998d8o+1n1JHDyMNeNa6+5ulGjTVLji3okqhciMaoo6opG09\nZLev75AowGsCECmoCYEVzMCho2HY+aoUp3gu/cFIPzOAO1CDs3SZO8DnV8I3Dmh8\n9eH004Qq8TQhDt1pX2ZapAULlFsgaQx1R0UmuxVgpWaxt7jVmb1Ras9mEeKlv4zk\nsQIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 17:12:49,262 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 17:12:49,263 DEBUG core.py Auth message = {'response': 511, 'bin': '7cda7934bad09968869f725be54703938a4f883c3a3fa58aa760b63466a8f593204468e794bfdf8136eed645315ae6205702a5e9204964017eecde80982c7cff'}
+2022-03-07 17:12:49,794 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646662369.2644603, 'account_name': 'Demid'}
+2022-03-07 17:12:50,302 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646662369.8084571, 'user': 'Demid'}
+2022-03-07 17:13:06,247 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56290)
+2022-03-07 17:13:06,748 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646662386.2574606, 'user': {'account_name': 'Olga', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGpIyfXK5F2j2JkeaU+i\ntANwJpZmDu7ZuUyM9VHZrUyc3HawgMDsgX8BytO0jHvji2MO48TYEA/8gpHmbN1o\n9oUnJVbuY6Rm70hMGoflC8XfjvGlDbJfi7FAehQ3NgiE0BDdNRpjpj0fjen2ub5M\nT0xocIb15/VW6lq+6d+0vPbcD66zN2aiwuMbkBsu/cWm+n6+ke+pzLrddXykSDmg\nuhfpt7QhHzhYJTO8dL7QyDpj5e6hD275N4pmyTKv4//BtOuvUXoFEJN4O+161SdU\nUDjK636Zqgh2Gq2AIpyJS9uvpPVMUb/Vwk8dBUhS+UpnoEQzvtVgGRzqKVFJAHVe\n2wIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 17:13:06,748 DEBUG core.py Start auth process for {'account_name': 'Olga', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGpIyfXK5F2j2JkeaU+i\ntANwJpZmDu7ZuUyM9VHZrUyc3HawgMDsgX8BytO0jHvji2MO48TYEA/8gpHmbN1o\n9oUnJVbuY6Rm70hMGoflC8XfjvGlDbJfi7FAehQ3NgiE0BDdNRpjpj0fjen2ub5M\nT0xocIb15/VW6lq+6d+0vPbcD66zN2aiwuMbkBsu/cWm+n6+ke+pzLrddXykSDmg\nuhfpt7QhHzhYJTO8dL7QyDpj5e6hD275N4pmyTKv4//BtOuvUXoFEJN4O+161SdU\nUDjK636Zqgh2Gq2AIpyJS9uvpPVMUb/Vwk8dBUhS+UpnoEQzvtVgGRzqKVFJAHVe\n2wIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 17:13:06,749 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 17:13:06,750 DEBUG core.py Auth message = {'response': 511, 'bin': '94806a4df0a9bb8192405193b6cfe113abab1d605018fd7071627bc1abefc9370084019a7723385a38020d1b9438d77640cfb7ea08b482b7fbaa65fdd3ae7a8b'}
+2022-03-07 17:13:07,264 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646662386.7516258, 'account_name': 'Olga'}
+2022-03-07 17:13:07,781 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646662387.280125, 'user': 'Olga'}
+2022-03-07 17:13:13,391 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646662393.0114431, 'user': 'Olga', 'account_name': 'Demid'}
+2022-03-07 17:13:23,089 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646662402.792154, 'user': 'Demid', 'account_name': 'Olga'}
+2022-03-07 17:13:26,178 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662405.961954, 'account_name': 'Olga'}
+2022-03-07 17:13:29,241 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662408.709751, 'account_name': 'Demid'}
+2022-03-07 17:13:39,420 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Olga', 'time': 1646662419.2999477, 'mess_text': 'cCT1u2pOh97FjoiznTkQ/O/rkPEHS+k9Ugd3emOUoqXORC5VB+04sBQDd4J0jsBdxzogX6fp5t8m7MErwN0g5bQvM1fWrsCBo/Jnv4h7LXQ3yhTTzT97yKwwuIZPuSuihCA4na273VZh3Vtws1phdhMJsqkofxKdt+ASYQ58diEhFLwD3/2lUurbA6W4PuASPEIVI06vdltwePUmdr0Y7Pmj16r2bAUCwf649uIQxgOaTi1BCOCdhmZhKwyB8+pl+D6UWjbkxXr8/buk7nz8byWu1T8GFqPtugIZ490+0e8SHVWnV6xb50yjXcec0i379Hwur5nVm/Zeg6W34Vn+yw=='}
+2022-03-07 17:13:39,435 INFO core.py Отправлено сообщение пользователю Olga от пользователя Demid.
+2022-03-07 17:14:01,365 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Olga', 'to': 'Demid', 'time': 1646662441.2825212, 'mess_text': 'WnxfHFzCQyQEDNkeq3rOrszwBKoo+mivz6/jIyR+OCCkTluYhtontVf1+P9rCWlyUvS6PPdMAcVr7/ETZP11Z2FKTjrriDBI7VsP6evu+Jp0UVtZGamXC9yvcGkyPC3ePyBKyik5sGGT5V7N4mrlOvpmI3mmRWWfszpVzgOwTOpq8awAGGTTkmsm6oA96QBKOe/xiZXPqQDYxF/YOW43MB4KbEU/RdUtvSjwT3BTrI88qczFu5pDYsJdUzmVwWYmA/w+xKTpT5eHGif70+knZHx+hqaRz14mi3PWGcMxVDa/o1Iv3qX85CuCvl5KkY3kTPmYGdkskQTWAihc+/blng=='}
+2022-03-07 17:14:01,379 INFO core.py Отправлено сообщение пользователю Demid от пользователя Olga.
+2022-03-07 17:14:31,366 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646662471.3510664, 'account_name': 'Demid'}
+2022-03-07 17:14:31,879 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646662471.366688, 'user': 'Demid'}
+2022-03-07 17:14:32,385 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646662472.086081, 'account_name': 'Olga'}
+2022-03-07 17:14:32,897 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646662472.3976707, 'user': 'Olga'}
+2022-03-07 17:14:56,029 INFO core.py Установлено соедение с ПК ('127.0.0.1', 56300)
+2022-03-07 17:14:56,539 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1646662496.0400796, 'user': {'account_name': 'Dema', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAouhuMzdJoap3uorDv/pe\nFI5k4Fo5R2YfJJ+mMcidDKN5y2tawoeG8+zuGlWT9SjdqLjWhIBTeBdWQL27NoPq\n8IUlW33+AczMnt231ir2XBgFvplwpzEPWZqojAGbbtSU9RP2Ey3s7Rra7PwjktFO\n+iDIaKNH3ABXAzKzy6J3V1ndDDVUKLgtynRyfE90dugVjzhYPmLeYu4rUEwcgTte\nEhCBovEbxNhY+ztSgEOdE9ghmUWpUJJWeOquZkKv3IIe4cPBxPb4oAsZVR7o8uC+\n/4X5qSMyxjJhJ7Fg5COu8xjCvMC4QKd2DJmkKSMllKFv+z1GCc1+WUGIwr6ED4nX\n1QIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-03-07 17:14:56,539 DEBUG core.py Start auth process for {'account_name': 'Dema', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAouhuMzdJoap3uorDv/pe\nFI5k4Fo5R2YfJJ+mMcidDKN5y2tawoeG8+zuGlWT9SjdqLjWhIBTeBdWQL27NoPq\n8IUlW33+AczMnt231ir2XBgFvplwpzEPWZqojAGbbtSU9RP2Ey3s7Rra7PwjktFO\n+iDIaKNH3ABXAzKzy6J3V1ndDDVUKLgtynRyfE90dugVjzhYPmLeYu4rUEwcgTte\nEhCBovEbxNhY+ztSgEOdE9ghmUWpUJJWeOquZkKv3IIe4cPBxPb4oAsZVR7o8uC+\n/4X5qSMyxjJhJ7Fg5COu8xjCvMC4QKd2DJmkKSMllKFv+z1GCc1+WUGIwr6ED4nX\n1QIDAQAB\n-----END PUBLIC KEY-----'}
+2022-03-07 17:14:56,540 DEBUG core.py Correct username, starting passwd check.
+2022-03-07 17:14:56,541 DEBUG core.py Auth message = {'response': 511, 'bin': 'def706dcce70b56a21e6f70f92bab093adf2800aa1fe89a146ccb79f6a4d7c85af93e4806ea98b775e6a32da112413f14349d385eecaf2e3b40b99ac039381d6'}
+2022-03-07 17:14:57,056 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1646662496.542575, 'account_name': 'Dema'}
+2022-03-07 17:14:57,573 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1646662497.0721567, 'user': 'Dema'}
+2022-03-07 17:15:03,679 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646662503.48359, 'user': 'Dema', 'account_name': 'Demid'}
+2022-03-07 17:15:05,710 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662505.640381, 'account_name': 'Demid'}
+2022-03-07 17:15:13,341 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dema', 'to': 'Demid', 'time': 1646662512.840949, 'mess_text': 'Ze0JNIxtAREdSdXaU8UBRnQE76yDRxuuko3bepxhiSnkN+xhwuMNtK70eIgWPdcIGKt0XraWlL7XFrbv6VnJW/lXkovZmWD8D0KOaXWr026OMBJLLGLGY6Jfc+qHwRjniI7rgz21WWezoE8dxjrxV2DaziNlEL41ds0aWfy/dNDmJZ1Ds25RZxIJH+EMfMhSJXqYJgj5A13kMwYMKbZf/KTnE0GQf0dXbj7NaQ2uqfvgIQUCvbz+5oRJZe273yC/pgKdGNpoXKKKJugIpv63RC/J9gtF92oCIiB+GQtd4YRF3YP9IlxocrR6UYZK4MRQiF5cuUDAzabHYxbZuIO3aw=='}
+2022-03-07 17:15:13,352 INFO core.py Отправлено сообщение пользователю Demid от пользователя Dema.
+2022-03-07 17:15:19,462 DEBUG core.py Разбор сообщения от клиента : {'action': 'add', 'time': 1646662519.39143, 'user': 'Demid', 'account_name': 'Dema'}
+2022-03-07 17:15:21,012 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662520.5686445, 'account_name': 'Dema'}
+2022-03-07 17:15:30,628 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662530.269672, 'account_name': 'Olga'}
+2022-03-07 17:15:32,645 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662532.4417655, 'account_name': 'Dema'}
+2022-03-07 17:15:55,008 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Dema', 'time': 1646662554.456637, 'mess_text': 'iC+J7qrdGGY3Drbf+dBOqj6+5YVs4ISfs71FvHhq1HBi/077dNz2E3vN28G4SO+z+KiuKKebo53oL9NF/L3Xzw1ldiEJuPizAoao2OlruvF73PnmWC4+w4Qvn60vSgzzZBXqvJ5Z0rNDkmSx6h/dVtt6ENS21ena6l/ZfPdt7e5vL7uNFt1UDj4opwL56FInlWwN9nZ1RWGBuCSKrE0IvGAcrFdIAgqq08KsYtgaaoNHun9RdXMjclk3+OFuIagq15Ato7qTV3LDZvdE+8qWKeHZYw3TsDlU9pcSYp94Bbemzb/9O30s4hld5qM/miCe+iAe9USQgwwQTdeIIzbGhA=='}
+2022-03-07 17:15:55,022 INFO core.py Отправлено сообщение пользователю Dema от пользователя Demid.
+2022-03-07 17:15:58,078 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662557.6066682, 'account_name': 'Olga'}
+2022-03-07 17:16:04,168 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662563.8293052, 'account_name': 'Dema'}
+2022-03-07 17:16:05,699 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662565.214629, 'account_name': 'Olga'}
+2022-03-07 17:16:08,236 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662567.7527225, 'account_name': 'Dema'}
+2022-03-07 17:16:13,329 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662573.1735914, 'account_name': 'Olga'}
+2022-03-07 17:16:15,345 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662575.0955982, 'account_name': 'Dema'}
+2022-03-07 17:16:17,877 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662577.3769264, 'account_name': 'Olga'}
+2022-03-07 17:17:28,578 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Olga', 'time': 1646662648.5091462, 'mess_text': 'egeS3Rn8CHJU6rz8KoI2wfssFncumVBYBGF8RWrapsPxUjj//bV9d+bd62rM2BxHA5NkZGxR1IdmVjCBT/yxh8L4AIx7Hy14sAMBUYm/nhOSOgcbRzysDp3odOeRB+nE1T7ZKqnx4WGqkR3ovar6tIjqZ+oHRnO1B/IQdreVmn78XwzRavOOsshmSD1VVEk+948iueom2P/iSTjA7HZLFUGXMxlkYg2mPcqxr1AiTUzIXKm/wrR3rXZMEOkU3s91HZM/slvtJKs6mfx0JtKimMtJfOp9b30TiMPw6ITUXKjZaDEDmP/Xy2VEqPTYx/cCwIMBkRwN8A5eANyQW2Gsxg=='}
+2022-03-07 17:17:28,588 INFO core.py Отправлено сообщение пользователю Olga от пользователя Demid.
+2022-03-07 17:18:22,481 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Olga', 'to': 'Demid', 'time': 1646662702.1487954, 'mess_text': 'M0e6qcdGcbhejbY+yRqCiLaQdSlx73uAoxxte0BbdGTREKNHtQBhNz+51cO63ImA+klu0RWsbeIUfK6m4CsNl0mudWlE+HcbcybKzl2m9N6EkYpvwUa4lIY/JSDdNH8asdiJJ62Z2Zhuql36/Svg34KgwhWrK5JKqCd6QqKrBke5HFOtNXa9rg+J3AaAQ0YIsWd0aw6elc2ZMVksHnNca9sSoYxPNZ42zfM2JCub7pbtLSm19xCQ98DtVjZThEJ1StLcLaHUJUOOYFVpk0Eas0hDBk5NUKCb5yqgcORdY5KDivbJR1KATSiNq9xQCkBAQLkQ0UYtpjeDn2ZcKwt03g=='}
+2022-03-07 17:18:22,491 INFO core.py Отправлено сообщение пользователю Demid от пользователя Olga.
+2022-03-07 17:18:32,650 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Olga', 'to': 'Demid', 'time': 1646662712.3688083, 'mess_text': 'Xp6aCFhF8nCpXDOIjvuh+odA3b0qv46bqgvbMXn25w8fLVcB3WZmc4VnNvIwF/11KCG7KwIO8ryDcBjUW+p9IFd6tnZ36XKTiVScHfsCO6Yp6iNbYoFj0ZRla+LTu6M3TyF/4M0UoTnv4nRdws3MHvD9OxtFYh4ZrLX3Bwuwj5pxq7nBNfy4n55HVK80uiw05Vc/Ja+0/Yin7V6GiWDfo82oQ2dQpDIbIGJVoC9e4CXDv/Y+cemMwnguJUG23IcYHBKF5/xbS7qJRR21Wpoqik2fpg6Wug+ac2q7uZvIw5Ik1WVeJe9ukOMvvyhApzW0W+BYhkaOOaUnqWGrH8rN2Q=='}
+2022-03-07 17:18:32,663 INFO core.py Отправлено сообщение пользователю Demid от пользователя Olga.
+2022-03-07 17:18:44,863 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646662724.7228484, 'account_name': 'Olga'}
+2022-03-07 17:18:44,863 INFO core.py Клиент ('127.0.0.1', 56290) отключился от сервера.
+2022-03-07 17:18:56,557 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Olga', 'time': 1646662735.6786602, 'mess_text': 'VU4WIzZfBsolSL0c6eFNmdFQ6/di5Z+XKwruDYLFSGhVnvSuOjaM76ppdjK67Wn/224NIgKKaZ6pkP93XdWh0UTW3vwrVG0HQIjF3na88oWtMLERml2HTSxzoZGMFX7KAhMStLo/cnQQxCjPYb6aVP20Rc/SdWd636BQe2Ttkg2G2urMw7ehrE085Az5xV4rJnO7x3OklATbVrpXonWb/NffxBD/JFlo9pdlRIymYxOI/s9FL1Xe14UAPrIErRfvKfN8uucFh6KQ/2JdvZ3AwnKMUxudDe5psmLVCyiPN8evk2Y1NwHmOCuRKkzqYXR231fgqFNY+mAf/ieXymq2xw=='}
+2022-03-07 17:19:04,202 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1646662743.8055794, 'account_name': 'Dema'}
+2022-03-07 17:19:31,686 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Demid', 'to': 'Dema', 'time': 1646662771.1813154, 'mess_text': 'BlRoVHIUCkqoIHzMFqB8Zb6vsneG1wEcTc7cTOVDCy2S41Hu4DxwTMHe/Ul0OxIiMFV9bKp/mZa21hl8Wk9z+YJ4PoZRnTe312P1X81XiQXS0azhCZLWdcjZhc4ceISnIp/e8AGAyBWH/AqYRl5GFu0Q+U4SlsNiLXeEoF5OEr8mZCSgYjbkm74Td0KUNzH8s5HRxMmAdqx2+NdkeU9uFxmXbrIRCxRmxOfA3AfJZaylKZ4dUS6c9sk6pH05QrpH5+nBfJYJMPKph+/TL7oe4bY/bXASxY+5hUjRc/+IgW2O1KM5KoPRQ4UmDn4wJY1RrvEzMKsfHbjvfqqyKzIfjw=='}
+2022-03-07 17:19:31,700 INFO core.py Отправлено сообщение пользователю Dema от пользователя Demid.
+2022-03-07 17:20:10,455 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dema', 'to': 'Demid', 'time': 1646662810.2168815, 'mess_text': 'DrpN4w8Dma41dCWLuamQHP//bzXcJN0ahdcefmYkmeF7Xb9X1SuRDOeIJbqVgpl5zbrJx2a/ZmF7MNsaVHyNzry5/NE8EAusZjINF3mLPs1fGc82sPgOzvLDKmZitmCVvSNZwaZXKiOerjzu0CH3jKnvQ7QmoYA73yZrgWKXRACOSRTgPK9ht7wtdOFHNvFjPszYnC0kWfduPQgxIRQ1hx12CfGXTaoIKo62x5uma/VG+JqoV2J8ylRO+zLC3qWH5nRhnjfz5HQWZ7nYFS6y95ss/xnmdTTXWBgB7zFBqFQa6Tl/8fdcP/+F97qNiYPVWz0rtchW9U3/Qc/Fnlm31Q=='}
+2022-03-07 17:20:10,468 INFO core.py Отправлено сообщение пользователю Demid от пользователя Dema.
+2022-03-07 17:20:16,071 DEBUG core.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Dema', 'to': 'Demid', 'time': 1646662815.764762, 'mess_text': 'LtwjVmhnymL9Bxsir8awVdyYN8Uj8/F9WtTnWCmqva4KQB+pEs+Pb0mqHNJNR7sO6KFDIzHOIcumLYzYL3ovFUt444OLOK6hh0mPhjjHDEVN/OCSJ9wiXxHx99cMbzXFdyLrrTlutA+y0JkO+7kZvo7JvYrPdsGAVj+XnkpL+n8vgvS8CbngYDSkyzyWi9cUqOQBwDE7hJpFu0o4scczMqo2vXsZpBNT8lxW1ZhXaFbjzVyaJ2RpYtRLrpbtbDdzSsUw8jzaYGLBozFAzAsucdq6mrQOO1617WwWEVQs1tbF1VO6alflJZJ39URN31idrmLsm/o8lOIZ6C3hGJGWmg=='}
+2022-03-07 17:20:16,084 INFO core.py Отправлено сообщение пользователю Demid от пользователя Dema.
+2022-03-07 17:20:38,977 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646662838.7587888, 'account_name': 'Demid'}
+2022-03-07 17:20:38,977 INFO core.py Клиент ('127.0.0.1', 56286) отключился от сервера.
+2022-03-07 17:20:47,657 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1646662847.3290322, 'account_name': 'Dema'}
+2022-03-07 17:20:47,657 INFO core.py Клиент ('127.0.0.1', 56300) отключился от сервера.
